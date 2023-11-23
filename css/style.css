@@ -1,4 +1,45 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  display: block;
   margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+}
+
+#date__container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
